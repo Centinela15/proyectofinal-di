@@ -1,0 +1,38 @@
+extends layout
+
+block content
+    div.alert.alert-warning
+     section#todo
+      header#header
+       center.h1 To do list
+
+
+
+       section#main
+       div.alert.alert-info
+        form( id='todo-form')
+         p Aqui puede anotar su tarea
+         input.form-control(id='new-todo', placeholder="¿Qué tarea agregarás?", name='title')
+
+
+       div.alert.alert-info
+        p Aqui puede subir un archivo a la tarea que realizará
+        br
+        input(type="hidden" role="uploadcare-uploader" name="content" data-images-only="true" id="filecont")
+
+       div.alert.alert-info
+        center.h2 Lista actual:
+         hr
+        h4 Este checkbox dará por hecho todas las tareas:
+
+         input(id="toggle-all", type="checkbox")
+         hr
+         div.alert.alert-success
+          br
+          ul#todo-list
+      div.alert.alert-info
+        h3 Instrucciones de uso:
+        p -Los recuadros a los lados de la palabra sirven para marcar la tarea como realizada y para eliminarla de la lista.
+        p -El recuadro izquierdo marca la tarea como realizada.
+        p -El recuadro derecho borra las tareas ya realizadas.
+        p -El recuadro inferior de la palabra sirve para editar el nombre de la tarea (en caso de un error).

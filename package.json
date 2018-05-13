@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-martin",
+  "version": "1.0.0",
+  "description": "Proyecto to do list A01229461",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Covarrubias Vazquez",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^3.0.0-rc4",
+    "jade": "^1.11.0",
+    "mongoose": "^5.1.0",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.1.0"
+  }
+}
