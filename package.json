@@ -4,7 +4,7 @@
   "description": "Proyecto to do list A01229461",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "author": "Roberto Covarrubias Vazquez",
   "license": "ISC",
