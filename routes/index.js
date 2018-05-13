@@ -1,4 +1,4 @@
 
 exports.index = function(req, res) {
-  res.render('index', { title: 'Todo App|Express + MongoDB' });
+  res.render('index', { title: 'proyecto' });
 };
